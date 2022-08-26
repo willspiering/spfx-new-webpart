@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "starter-webpart-client-side-solution",
+    "id": "2b3403b7-4ad0-47c6-845f-466d19cb45d3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "starter-webpart description"
+      },
+      "longDescription": {
+        "default": "starter-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "starter-webpart Feature",
+        "description": "The feature that activates elements of the starter-webpart solution.",
+        "id": "08920d77-7ced-4957-8eb2-06a8d05aac92",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/starter-webpart.sppkg"
+  }
+}
